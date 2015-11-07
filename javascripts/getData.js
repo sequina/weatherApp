@@ -11,5 +11,19 @@ define(["jquery", "lodash", "hbs", "bootstrap", "q", "firebase"], function($, _,
   	console.log("The read failed: " + errorObject.code);
 	});
 
-});
+
+	// var getWeather = {};
+	var zipcode = $("#zipCode").val();
+
+	$.ajax({
+   		url: "api.openweathermap.org/data/2.5/weather?zip=" + zipcode + ",us",
+  		data: {
+      		format: 'json'
+   			  },
+   		error: function() {
+      		(console.log("Error retrieving data"));
+   			  },
+   		type: 'GET'
+	});
+	
 	
