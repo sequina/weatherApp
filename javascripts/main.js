@@ -16,6 +16,6 @@ requirejs.config({
 
 requirejs(
   ["jquery", "lodash", "hbs", "bootstrap", "q", "firebase"],
-  function($, _, Handlebars, bootstrap, q, Firebase, dataControl,) {
-    
-  };
+  function($, _, Handlebars, bootstrap, q, Firebase) {
+
+  });

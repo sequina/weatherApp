@@ -1,14 +1,14 @@
-<!doctype html>
+<!DOCTYPE html>
 <html>
 <head>
-  <meta charset="UTF-8">
+<meta charset="UTF-8">
   <title>Weather App</title>
+    <link rel="stylesheet" type="text/css" href="css/main.css">
     <link rel="stylesheet" type="text/css" href="lib/bower_components/bootstrap/dist/css/bootstrap.min.css">
-    <link rel="stylesheet" type="text/css" href="styles/main.css">
 </head>
 <body>
-<div class="form-group">
-  <label for="email">Email</label>
+    <div class="form-group">
+    <label for="email">Email</label>
     <input type="text" name="username" id="username" class="form-control" required />
       <br>
     <label for="password">Password</label>
@@ -21,18 +21,9 @@
 
 
 
+    <script data-main="javascripts/main" src="lib/bower_components/requirejs/require.js"></script>
+    <script data-main="javascripts/main" src="lib/bower_components/firebase/firebase.js"></script>
+    <script type="text/javascript" src = "javascripts/app.js"></script>
 
-
-
-
-
-
-
-
-
-<script data-main="javascripts/main" src="lib/bower_components/requirejs/require.js"></script>
-<script src = "http://api.openweathermap.org/701d94075a4e5961dc132af48ecda7a4"></script>
-<script src="https://weatherproject.firebaseio.com/"></script>
-<!-- <script type="text/javascript" src = "app.js"></script> -->
 </body>
 </html>
