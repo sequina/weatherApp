@@ -2,6 +2,10 @@ h1 {
   font-size: 9
 }
 
-background {
+.container {
+  background-size: cover;
   background-image: url("https://lucidgypsy.files.wordpress.com/2013/12/sky2.jpg");
+  height: 100vh;
+  text-align: center;
+  padding-top: 70px;
 }
