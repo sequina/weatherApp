@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Enter your zip code</title>
+  <link rel="stylesheet" type="text/css" href="./css/main.css">
+  <link rel="stylesheet" type="text/css" href="lib/bower_components/bootstrap/dist/css/bootstrap.min.css">
+</head>
+<body>
+  <div class="form-group">
+    <label for="zip">Zip Code</label>
+    <input type="text" name="zipCode" id="zipCode" class="form-control" required />
+  <button class="btn btn-default" type="submit" id="loginButton">Submit</button>
+  <div>Location:<span id="location"></span></div>
+  <div>Temperature:<span id="temperature"></span></div>
+  <div>Conditions:<span id="conditions"></span></div>
+  <div>Air pressure:<span id="airPressure"></span></div>
+  <div>Wind speed:<span id="windSpeed"></span></div>
+
+
+
+
+    <script data-main="javascripts/main" src="lib/bower_components/requirejs/require.js"></script>
+</body>
+</html>
