@@ -69,6 +69,10 @@ $(document).ready(function() {
 			$("#windSpeed").html(WindSpeed + " " + "MPH");
 
 			$(".temp").hide();
+			$(".weatherCondition").hide();
+			$(".pressure").hide();
+			$(".wind").hide();
+
 		},
 		success: function (data) {
 			console.log("SUCCESS");
@@ -80,6 +84,10 @@ $(document).ready(function() {
 	
 	$("#threeday").show();
 	$("#sevenday").show();
+
+	
+	$().hide();
+	
 
 });
 
