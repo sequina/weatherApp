@@ -14,12 +14,15 @@ requirejs.config({
   }
 });
 
-requirejs(
-
-  ["jquery", "lodash", "hbs", "bootstrap", "q", "firebase","getData"],
+requirejs(["jquery", "lodash", "hbs", "bootstrap", "q", "firebase","getData"],
   function($, _, Handlebars, bootstrap, q, Firebase, getData) {
-    
+    $("#register").click(function(e) {
+      // $(".output").html(ZipCode())
 
+    });
 
+// $('#submit').click(function(e) {
+//     var globalFilmData;
+//     var globalIds;
 
   });
