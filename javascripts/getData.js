@@ -98,13 +98,13 @@ $("#threeday").on("click", function(callback) {
 			var newData = data;
 			console.log("8 days", newData);
 // ********TEMP************
-	$("#temperature2").html(data.responseJSON.list[1].temp.max).show();		
-	$("#temperature3").html(data.responseJSON.list[2].temp.max).show();
-	$("#temperature4").html(data.responseJSON.list[3].temp.max).show();
-	$("#temperature5").html(data.responseJSON.list[4].temp.max).hide();
-	$("#temperature6").html(data.responseJSON.list[5].temp.max).hide();
-	$("#temperature7").html(data.responseJSON.list[6].temp.max).hide();
-	$("#temperature8").html(data.responseJSON.list[7].temp.max).hide();
+	$("#temperature2").html(data.responseJSON.list[1].temp.max + " " + "F").show();		
+	$("#temperature3").html(data.responseJSON.list[2].temp.max + " " + "F").show();
+	$("#temperature4").html(data.responseJSON.list[3].temp.max + " " + "F").show();
+	$("#temperature5").html(data.responseJSON.list[4].temp.max + " " + "F").hide();
+	$("#temperature6").html(data.responseJSON.list[5].temp.max + " " + "F").hide();
+	$("#temperature7").html(data.responseJSON.list[6].temp.max + " " + "F").hide();
+	$("#temperature8").html(data.responseJSON.list[7].temp.max + " " + "F").hide();
 
 // ************CONDITIONS************
     $("#conditions2").html(data.responseJSON.list[1].weather[0].description).show();		
@@ -116,22 +116,22 @@ $("#threeday").on("click", function(callback) {
 	$("#conditions8").html(data.responseJSON.list[7].weather[0].description).hide();
 
 //**************AIR PRESSURE*****************
-	$("#airPressure2").html(data.responseJSON.list[1].pressure).show();	
-	$("#airPressure3").html(data.responseJSON.list[2].pressure).show();
-	$("#airPressure4").html(data.responseJSON.list[3].pressure).show();
-	$("#airPressure5").html(data.responseJSON.list[4].pressure).hide();
-	$("#airPressure6").html(data.responseJSON.list[5].pressure).hide();
-	$("#airPressure7").html(data.responseJSON.list[6].pressure).hide();
-	$("#airPressure8").html(data.responseJSON.list[7].pressure).hide();
+	$("#airPressure2").html(data.responseJSON.list[1].pressure + " " + "hPa").show();	
+	$("#airPressure3").html(data.responseJSON.list[2].pressure + " " + "hPa").show();
+	$("#airPressure4").html(data.responseJSON.list[3].pressure + " " + "hPa").show();
+	$("#airPressure5").html(data.responseJSON.list[4].pressure + " " + "hPa").hide();
+	$("#airPressure6").html(data.responseJSON.list[5].pressure + " " + "hPa").hide();
+	$("#airPressure7").html(data.responseJSON.list[6].pressure + " " + "hPa").hide();
+	$("#airPressure8").html(data.responseJSON.list[7].pressure + " " + "hPa").hide();
 
 // **************WIND PRESSURE*****************
-	$("#windSpeed2").html(data.responseJSON.list[1].speed).show();	
-	$("#windSpeed3").html(data.responseJSON.list[2].speed).show();
-	$("#windSpeed4").html(data.responseJSON.list[3].speed).show();
-	$("#windSpeed5").html(data.responseJSON.list[4].speed).hide();
-	$("#windSpeed6").html(data.responseJSON.list[5].speed).hide();
-	$("#windSpeed7").html(data.responseJSON.list[6].speed).hide();
-	$("#windSpeed8").html(data.responseJSON.list[7].speed).hide();
+	$("#windSpeed2").html(data.responseJSON.list[1].speed + " " + "MPH").show();	
+	$("#windSpeed3").html(data.responseJSON.list[2].speed + " " + "MPH").show();
+	$("#windSpeed4").html(data.responseJSON.list[3].speed + " " + "MPH").show();
+	$("#windSpeed5").html(data.responseJSON.list[4].speed + " " + "MPH").hide();
+	$("#windSpeed6").html(data.responseJSON.list[5].speed + " " + "MPH").hide();
+	$("#windSpeed7").html(data.responseJSON.list[6].speed + " " + "MPH").hide();
+	$("#windSpeed8").html(data.responseJSON.list[7].speed + " " + "MPH").hide();
 
 		},
 		success: function (data) {
@@ -161,13 +161,13 @@ $("#sevenday").on("click", function(callback) {
 			var newData = data;
 			console.log("8 days", newData);
 // ********TEMP************
-	$("#temperature2").html(data.responseJSON.list[1].temp.max).show();		
-	$("#temperature3").html(data.responseJSON.list[2].temp.max).show();
-	$("#temperature4").html(data.responseJSON.list[3].temp.max).show();
-	$("#temperature5").html(data.responseJSON.list[4].temp.max).show();
-	$("#temperature6").html(data.responseJSON.list[5].temp.max).show();
-	$("#temperature7").html(data.responseJSON.list[6].temp.max).show();
-	$("#temperature8").html(data.responseJSON.list[7].temp.max).show();
+	$("#temperature2").html(data.responseJSON.list[1].temp.max + " " + "F").show();		
+	$("#temperature3").html(data.responseJSON.list[2].temp.max + " " + "F").show();
+	$("#temperature4").html(data.responseJSON.list[3].temp.max + " " + "F").show();
+	$("#temperature5").html(data.responseJSON.list[4].temp.max + " " + "F").show();
+	$("#temperature6").html(data.responseJSON.list[5].temp.max + " " + "F").show();
+	$("#temperature7").html(data.responseJSON.list[6].temp.max + " " + "F").show();
+	$("#temperature8").html(data.responseJSON.list[7].temp.max + " " + "F").show();
 
 // ************CONDITIONS************
     $("#conditions2").html(data.responseJSON.list[1].weather[0].description).show();		
@@ -179,22 +179,22 @@ $("#sevenday").on("click", function(callback) {
 	$("#conditions8").html(data.responseJSON.list[7].weather[0].description).show();
 
 //**************AIR PRESSURE*****************
-	$("#airPressure2").html(data.responseJSON.list[1].pressure).show();	
-	$("#airPressure3").html(data.responseJSON.list[2].pressure).show();
-	$("#airPressure4").html(data.responseJSON.list[3].pressure).show();
-	$("#airPressure5").html(data.responseJSON.list[4].pressure).show();
-	$("#airPressure6").html(data.responseJSON.list[5].pressure).show();
-	$("#airPressure7").html(data.responseJSON.list[6].pressure).show();
-	$("#airPressure8").html(data.responseJSON.list[7].pressure).show();
+	$("#airPressure2").html(data.responseJSON.list[1].pressure + " " + "hPa").show();	
+	$("#airPressure3").html(data.responseJSON.list[2].pressure + " " + "hPa").show();
+	$("#airPressure4").html(data.responseJSON.list[3].pressure + " " + "hPa").show();
+	$("#airPressure5").html(data.responseJSON.list[4].pressure + " " + "hPa").show();
+	$("#airPressure6").html(data.responseJSON.list[5].pressure + " " + "hPa").show();
+	$("#airPressure7").html(data.responseJSON.list[6].pressure + " " + "hPa").show();
+	$("#airPressure8").html(data.responseJSON.list[7].pressure + " " + "hPa").show();
 
 // **************WIND PRESSURE*****************
-	$("#windSpeed2").html(data.responseJSON.list[1].speed).show();	
-	$("#windSpeed3").html(data.responseJSON.list[2].speed).show();
-	$("#windSpeed4").html(data.responseJSON.list[3].speed).show();
-	$("#windSpeed5").html(data.responseJSON.list[4].speed).show();
-	$("#windSpeed6").html(data.responseJSON.list[5].speed).show();
-	$("#windSpeed7").html(data.responseJSON.list[6].speed).show();
-	$("#windSpeed8").html(data.responseJSON.list[7].speed).show();
+	$("#windSpeed2").html(data.responseJSON.list[1].speed + " " + "MPH").show();	
+	$("#windSpeed3").html(data.responseJSON.list[2].speed + " " + "MPH").show();
+	$("#windSpeed4").html(data.responseJSON.list[3].speed + " " + "MPH").show();
+	$("#windSpeed5").html(data.responseJSON.list[4].speed + " " + "MPH").show();
+	$("#windSpeed6").html(data.responseJSON.list[5].speed + " " + "MPH").show();
+	$("#windSpeed7").html(data.responseJSON.list[6].speed + " " + "MPH").show();
+	$("#windSpeed8").html(data.responseJSON.list[7].speed + " " + "MPH").show();
 
 		},
 		success: function (data) {
